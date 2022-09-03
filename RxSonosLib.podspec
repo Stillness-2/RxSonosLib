@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name                   = 'RxSonosLib'
-  spec.version                = '0.14.2'
+  spec.version                = '0.14.3'
   spec.license                = { :type => 'Apache-2.0' }
   spec.homepage               = 'https://github.com/stefanrenne/RxSonosLib'
   spec.authors                = { 'Stefan Renne' => 'info@stefanrenne.nl' }
@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc           = true
   spec.source_files           = 'RxSonosLib/Framework/**/*.swift'
   spec.dependency             'RxSwift', '~> 4.5'
-  spec.dependency             'RxSSDP', '~> 5.0'
+  spec.dependency             'RxSSDP', :git => 'https://github.com/Stillness-2/RxSSDP'
   spec.dependency             'AEXML', '~> 4.4'
 end
