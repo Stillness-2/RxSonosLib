@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc           = true
   spec.source_files           = 'RxSonosLib/Framework/**/*.swift'
   spec.dependency             'RxSwift', '~> 4.5'
-  spec.dependency             'RxSSDP', :git => 'https://github.com/Stillness-2/RxSSDP'
+  spec.dependency             'RxSSDP', '~> 5.0'
   spec.dependency             'AEXML', '~> 4.4'
 end
